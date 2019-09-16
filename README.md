@@ -19,9 +19,9 @@ original usage from https://github.com/lukechilds/docker-electrumx
 ```docker run \
   -v /home/username/electrumx:/data \
   -e DAEMON_URL=http://user:pass@host:port \
-  -e COIN=BitcoinSegwit \
+  -e COIN=Viacoin \
   -p 50002:50002 \
-  lukechilds/electrumx
+  viacoin/electrumx
   ```
 
  please note in this script -v is different:
